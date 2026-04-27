@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://bjtiaqmmijt1n"]
+
+[ext_resource type="Script" uid="uid://y7abc2d37lf" path="res://vac_round.gd" id="1_igp75"]
+[ext_resource type="Texture2D" uid="uid://e5nitppl5hmr" path="res://Sprite-0002.svg" id="2_ejna3"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_fq0r4"]
+radius = 128.0039
+
+[node name="vac_round" type="Area2D" unique_id=1648961474]
+position = Vector2(-25, 0)
+script = ExtResource("1_igp75")
+metadata/_edit_group_ = true
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=445219327]
+texture = ExtResource("2_ejna3")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2026761276]
+shape = SubResource("CircleShape2D_fq0r4")

@@ -1,0 +1,29 @@
+[gd_scene format=3 uid="uid://df7xqohwurxr1"]
+
+[ext_resource type="PackedScene" uid="uid://bjtiaqmmijt1n" path="res://vac_round.tscn" id="1_pnv30"]
+[ext_resource type="PackedScene" uid="uid://23jl4nm045wp" path="res://wall.tscn" id="2_pnv30"]
+
+[node name="Node2D" type="Node2D" unique_id=1320472495]
+
+[node name="vac_round" parent="." unique_id=1648961474 instance=ExtResource("1_pnv30")]
+position = Vector2(521, 307)
+scale = Vector2(0.25, 0.25)
+
+[node name="WallN" parent="." unique_id=494237265 instance=ExtResource("2_pnv30")]
+position = Vector2(576, 2)
+rotation = 1.5707964
+scale = Vector2(4, 9)
+
+[node name="WallS" parent="." unique_id=1358304056 instance=ExtResource("2_pnv30")]
+position = Vector2(576, 646)
+rotation = 4.712389
+scale = Vector2(4, 9)
+
+[node name="WallE" parent="." unique_id=775828014 instance=ExtResource("2_pnv30")]
+position = Vector2(1150, 323.9968)
+rotation = 3.1415927
+scale = Vector2(4, 5.0624495)
+
+[node name="WallW" parent="." unique_id=1156412118 instance=ExtResource("2_pnv30")]
+position = Vector2(2, 323.99997)
+scale = Vector2(4, 5.0624495)
